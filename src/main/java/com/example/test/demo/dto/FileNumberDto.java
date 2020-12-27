@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ErrorDto implements Dto {
-    private String fileNameOrUrl;
-    private String message;
+public class FileNumberDto {
+    private Integer number;
+    private FilePathsDto filePaths;
 }

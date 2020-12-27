@@ -5,9 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class FilePathsDto {
-    private String imagePath;
-    private String previewImagePath;
+@NoArgsConstructor
+public class FileUrlDto {
+    private String fileUrl;
+    private FilePathsDto filePaths;
 }
